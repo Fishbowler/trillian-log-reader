@@ -1,0 +1,26 @@
+{
+  "name": "trillian-log-reader",
+  "version": "1.0.0",
+  "description": "Converts Trillian Jabber logs into something more human readable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fishbowler/trillian-log-reader.git"
+  },
+  "author": "Dan Caseley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fishbowler/trillian-log-reader/issues"
+  },
+  "homepage": "https://github.com/Fishbowler/trillian-log-reader#readme",
+  "dependencies": {
+    "expand-home-dir": "0.0.3",
+    "line-reader": "^0.4.0",
+    "moment": "^2.24.0",
+    "table-builder": "^2.1.1",
+    "xml2js": "^0.4.22"
+  }
+}
